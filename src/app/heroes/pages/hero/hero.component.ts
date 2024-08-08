@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-hero',
+  selector: 'hero-hero',
   templateUrl: './hero.component.html',
   styles: ``
 })
-export class HeroComponent {
+export class HeroPageComponent {
 
 }
