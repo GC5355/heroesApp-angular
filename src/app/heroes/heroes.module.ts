@@ -12,6 +12,7 @@ import { HeroPageComponent } from './pages/hero-page/hero-page.component';
 import { CardComponent } from './components/card/card.component';
 import { HeroImagePipe } from './pipes/heroImage.pipe';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ConfirmDialogComponent } from './components/confirm-dialog/confirm-dialog.component';
 
 
 
@@ -24,7 +25,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     SearchPageComponent,
     CardComponent,
 
-    HeroImagePipe
+    HeroImagePipe,
+      ConfirmDialogComponent
 
   ],
   imports: [
